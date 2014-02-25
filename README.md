@@ -11,7 +11,7 @@ This jquery plugin helps you to add and remove items dynamically. It will handle
 Adding and removing input fields dynamically.
 
 #### HTML
-```
+```html
 <div class="input-field"><input type="text"/></div>
 <br/>
 <button id="add-input">Add</button>
@@ -19,7 +19,7 @@ Adding and removing input fields dynamically.
 ```
 
 #### jQuery
-```
+```js
 $('.input-field').dynamicElements( {  
     addSelector: $('#add-input'),
     removeSelector: $('#remove-input')
@@ -29,10 +29,10 @@ $('.input-field').dynamicElements( {
 
 ### Example 2
 
-Adding and removing blocks (`.block), always keeping between 2 and 5 blocks.
+Adding and removing blocks (`.block`), always keeping between 2 and 5 blocks.
 
 #### HTML
-```
+```html
 <button id="add-block">Add</button>
 <button id="remove-block">Remove</button>
 <span class="total-blocks"></span>
@@ -41,7 +41,7 @@ Adding and removing blocks (`.block), always keeping between 2 and 5 blocks.
 ```
 
 #### jQuery
-```
+```js
 $('.block').dynamicElements( {  
     addSelector: $('#add-block'),
     removeSelector: $('#remove-block'),
@@ -61,7 +61,7 @@ $('.block').dynamicElements( {
 
 ### Options
 
-The main funcion, `dynamicElements()' accepts different options:
+The main funcion, `dynamicElements()` accepts different options:
 
 Option              | Explanation
 ------------------- | ---------------------------------
@@ -75,5 +75,4 @@ Option              | Explanation
 
 ## Copyright and license
 
-Copyright (c) 2014 Marc Fernandez
-This projected is licensed under the terms of the MIT license.
+Copyright (c) 2014 Marc Fernandez. This projected is licensed under the terms of the MIT license.
